@@ -65,4 +65,7 @@ function reset(){
     p2Score = 0;
     document.getElementsByTagName("p")[0].innerHTML = "Player 1 Score: " + p1Score;
     document.getElementsByTagName("p")[1].innerHTML = "Player 2 Score: " + p2Score;
+    document.querySelector("h1").innerText = "Press Roll To Start";
+    document.querySelector(".img1").setAttribute("src", "./images/dice1.png");
+    document.querySelector(".img2").setAttribute("src", "./images/dice1.png");
 }
